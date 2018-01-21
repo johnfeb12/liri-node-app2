@@ -1,26 +1,32 @@
 {
-  "name": "clear",
+  "name": "liri-bot",
   "version": "1.0.0",
-  "description": "liri-bot",
-  "main": "index.js",
+  "description": "",
+  "main": "liri.js",
+  "dependencies": {
+    "omdb": "^0.7.0",
+    "request": "^2.83.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnfeb12/liri-node-app2.git"
+    "url": ""
   },
-  "author": "jonathon reich",
+  "keywords": [
+    "my-tweets",
+    "spotify-this-song",
+    "movie-this",
+    
+  ],
+  "author": "Jonathon Reich",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnfeb12/liri-node-app2/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/johnfeb12/liri-node-app2#readme",
-  "dependencies": {
-    "dotenv": "^4.0.0",
-    "node-spotify-api": "^1.0.7",
-    "request": "^2.83.0",
-    "twitter": "^1.7.1"
-  },
-  "devDependencies": {}
+  "homepage": ""
 }
